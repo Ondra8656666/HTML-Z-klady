@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        a {
+            text-decoration: none;
+            display: block;
+            color: black;
+            text-align: center;
+            transition: transform 0.25s ease, color 0.25s ease;
+        }
+        a:hover {
+            text-decoration: underline;
+            font-weight: bold;
+            transform: scale(1.20);
+            color: whitesmoke;
+        }
+        div {
+            background-color: lightsalmon;
+            width: 50%;
+            margin: 0 auto;
+            border-radius: 25px;
+            transition: transform 0.2s ease;
+        }
+        div:hover {
+            background-color: olivedrab;
+            transform: scale(1.20)
+        }
+        h2 {
+            text-align: center;
+        }
+
+    </style>
 </head>
-<style>
-    h1,
-    h2,
-    h3 {
-        color: brown;
-    }
-</style>
-
 <body>
-    <h1>Stylování CSS</h1>
-    <!--INLINE STYLE-->
-    <p style="color: aqua;">Inline stylování</p>
-    <!--INLINE STYLE-->
-    <h1>Nadpis první úrovně</h1>
-    <h2>Nadpis druhé úrovně</h2>
-    <h3>Nadpis třetí úrovně</h3>
-    <!--EXTERN9 STYL-->
-    <P>První odstavec</P>
-    <p>Druhý odstavec</p>
-    <p>Třetí odstavec</p>
+    <section>
+        <h2>CSS portfolio prací</h2>
+        <div>
+            <a href="./1. Lekce/">1. Lekce</a>
+            <a href="./2. lekce/">2. Lekce</a>
+            <a href="./3. lekce/">3. Lekce</a>
+        </div>
+    </section>
+    
 </body>
-
 </html>
