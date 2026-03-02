@@ -1,0 +1,38 @@
+h2{
+    background: maroon;
+}
+div{
+    background-color: blueviolet;
+}
+p{
+    background: goldenrod;
+}
+ul{
+    background: indianred;
+}
+a, button, strong {
+    background: plum;
+}
+
+.d1 {
+    display: block;
+     border: 2px solid darkred;
+    background: blanchedalmond;
+    width: 50%;
+}
+.b1 {
+    display: inline-block;
+    background-color: aquamarine;
+    width: 150px;
+    height: 80px;
+}
+.example {
+    width: 200px;
+    height: 200px;
+    background: teal;
+    color: aliceblue;
+    display: grid;
+    place-items: center;
+    border: 5px solid purple;
+    border-radius: 15px;
+}
